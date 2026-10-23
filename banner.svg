@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">PhamThanh03 profile banner</title>
+  <desc id="desc">Dark technology banner for IT support, networking, and web development.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080d18"/>
+      <stop offset="55%" stop-color="#111d32"/>
+      <stop offset="100%" stop-color="#07111c"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#35c8ff"/>
+      <stop offset="50%" stop-color="#7c7dff"/>
+      <stop offset="100%" stop-color="#43e0b4"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8ba5c7" stroke-opacity=".10" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="22" fill="url(#grid)"/>
+  <g fill="none" stroke="url(#accent)" stroke-width="2" opacity=".7">
+    <path d="M760 50H900V100H1010V65H1150"/>
+    <path d="M710 145H830V210H960V170H1090V240H1170"/>
+    <path d="M790 280H900V250H1000V285H1125"/>
+    <path d="M900 100V145H960"/>
+  </g>
+  <g fill="#0e2236" stroke="#35c8ff" stroke-width="2">
+    <circle cx="760" cy="50" r="6"/><circle cx="900" cy="100" r="6"/>
+    <circle cx="1010" cy="65" r="6"/><circle cx="830" cy="210" r="6"/>
+    <circle cx="960" cy="170" r="6"/><circle cx="1090" cy="240" r="6"/>
+    <circle cx="900" cy="250" r="6"/><circle cx="1125" cy="285" r="6"/>
+  </g>
+  <g transform="translate(880 95)" opacity=".92">
+    <rect x="0" y="0" width="220" height="120" rx="14" fill="#0a1424" stroke="#52739b" stroke-width="1.5"/>
+    <rect x="18" y="18" width="184" height="84" rx="8" fill="#101f33" stroke="#24445e"/>
+    <path d="M35 43H83L98 58H130L145 43H185M35 78H68L84 64H120L136 78H185" fill="none" stroke="#42d6bd" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="35" cy="43" r="4" fill="#35c8ff"/><circle cx="185" cy="43" r="4" fill="#7c7dff"/>
+    <circle cx="35" cy="78" r="4" fill="#43e0b4"/><circle cx="185" cy="78" r="4" fill="#35c8ff"/>
+  </g>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="64" y="84" font-size="18" letter-spacing="5" fill="#7f9bbd">IT SUPPORT  /  NETWORKING  /  DEVELOPMENT</text>
+    <text x="60" y="155" font-size="56" font-weight="750" fill="#f3f7ff">PhamThanh03</text>
+    <rect x="64" y="180" width="350" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="64" y="225" font-size="24" font-weight="600" fill="#d6e6fa">Learn. Build. Troubleshoot.</text>
+    <text x="64" y="263" font-size="17" fill="#8da7c5">Cisco · VLAN · CCNA · PHP · MySQL · Python</text>
+  </g>
+  <circle cx="1150" cy="35" r="90" fill="#35c8ff" opacity=".05"/>
+  <circle cx="735" cy="300" r="120" fill="#7c7dff" opacity=".06"/>
+</svg>
